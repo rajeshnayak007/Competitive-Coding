@@ -1,12 +1,12 @@
-// User function template for C
-int largest(int arr[], int n) {
-    // Code Here
-    int max=arr[0];
-    
-    for(int i=1;i<n; i++){
-        if(arr[i]>max){
-            max = arr[i];
-        }
+class Solution {
+    public static int largest(int[] arr) {
+        // code here
+                int max = arr[0];
+                for (int i = 1; i < arr.length; i++) {
+                    if (arr[i] > max) {
+                        max = arr[i];
+                    }
+                }
+                return max;
     }
-    return max;
 }
