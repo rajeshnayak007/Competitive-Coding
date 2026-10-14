@@ -1,4 +1,3 @@
-            }
             else if (c == '(') {
                 stack.push(c);
             }
